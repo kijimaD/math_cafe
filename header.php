@@ -29,7 +29,7 @@
       <div class="row">
         <div class="col-md-6">
           <h1>
-            <a href="<?php echo home_url('/'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.svg" alt="<?php bloginfo('name'); ?>">
+            <a href="<?php echo home_url('/'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.svg" alt="<?php bloginfo('name'); ?>">←(仮)
             </a>
           </h1>
           <small>
@@ -83,9 +83,6 @@
           </li> -->
           <li class="nav-item">
             <a class="nav-link" href="<?php echo home_url('/'); ?>#menu">メニュー</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="<?php echo home_url('/'); ?>#coupen">クーポン</a>
           </li>
           <!-- ドロップダウン -->
           <li class="nav-item dropdown">

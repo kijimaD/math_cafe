@@ -76,7 +76,7 @@
 							<a href="#shop" class="btn btn-secondary">店舗情報を見る</a>
 					</div>
 					<div class="col-md-3">
-						<img src="<?php bloginfo('template_url'); ?>/images/about01.jpg" alt="店主が厳選したこだわりのコーヒー" class="img-fluid rounded float-right" style="width:200px;" />
+						<img src="<?php bloginfo('template_url'); ?>/images/about01.jpg" alt="店主が厳選したこだわりのコーヒー" class="img-fluid rounded float-right" style="" />
 					</div>
 				</div>
 			</div>
@@ -86,13 +86,13 @@
 	<!-- /コンテンツ01 -->
 
 	<!-- コンテンツ01-2（店概要） -->
-	<div class="py-4 bg-white">
+	<div class="py-4 bg-light">
 		<section id="about">
 			<div class="container">
 				<!-- 上段 -->
 				<div class="row mb-4">
 					<div class="col-md-3">
-						<img src="<?php bloginfo('template_url'); ?>/images/about02.jpg" alt="店主が厳選したこだわりのコーヒー" class="img-fluid rounded" style="width:200px;" />
+						<img src="<?php bloginfo('template_url'); ?>/images/about02.jpg" alt="店主が厳選したこだわりのコーヒー" class="img-fluid rounded" style="" />
 					</div>
 					<div class="col-md-9 mb-3">
 						<h3 class="mb-3">数学塾</h3>
@@ -113,12 +113,12 @@
 				<!-- 上段 -->
 				<div class="row mb-4">
 					<div class="col-md-9 mb-3">
-						<h3 class="mb-3">プログラミング教室</h3>
+						<h3 class="mb-3 ">プログラミング教室</h3>
 						<p>〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜</p>
 						<a href="#menu" class="btn btn-primary">プログラミング教室について</a>
 					</div>
 					<div class="col-md-3">
-						<img src="<?php bloginfo('template_url'); ?>/images/about03.jpg" alt="店主が厳選したこだわりのコーヒー" class="img-fluid rounded float-right" style="width:200px;" />
+						<img src="<?php bloginfo('template_url'); ?>/images/about03.jpg" alt="店主が厳選したこだわりのコーヒー" class="img-fluid rounded float-right" style="" />
 					</div>
 				</div>
 			</div>
