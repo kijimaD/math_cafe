@@ -391,7 +391,7 @@
 			<div class="container">
 				<h3 class="mb-3">情報</h3>
 				<p>
-					<?php bloginfo('name') ?>は、おしゃれな町並みのなかにあります。駅チカで、立ち寄りやすくなっています。(aaaaaaaaaaaaaaaa)
+					<?php bloginfo('name') ?>は、おしゃれな町並みのなかにあります。駅チカで、立ち寄りやすくなっています。aaaaaaaaaaaaaaaa
 					<div class="row">
 						<!-- 左側セクション -->
 						<div class="col-md-6">
@@ -406,11 +406,11 @@
 										</tr>
 										<tr>
 											<th>住所</th>
-											<td>〒000-0000　鹿児島県鹿児島市...</td>
+											<td>〒892-0821　鹿児島県鹿児島市名山町4-1名山ビル2F</td>
 										</tr>
 										<tr>
 											<th>電話番号</th>
-											<td>000-0000-0000</td>
+											<td>050-3490-1163</td>
 										</tr>
 										<tr>
 											<th>営業時間</th>
@@ -430,14 +430,14 @@
 										</tr>
 										<tr>
 											<th>定休日</th>
-											<td>水曜日、不定休</td>
+											<td>???????</td>
 										</tr>
 										<tr>
 											<th>クレジットカード</th>
-											<td>可</td>
+											<td>???????</td>
 										</tr>
 										<tr>
-											<th>キャッシュレス？</th>
+											<th>キャッシュレス?????</th>
 											<td>PayPay可</td>
 										</tr>
 										<tr>
@@ -446,7 +446,7 @@
 										</tr>
 										<tr>
 											<th>駐車場</th>
-											<td>駐車場あり</td>
+											<td>駐車場あり?????</td>
 										</tr>
 									</tbody>
 								</table>
@@ -463,7 +463,7 @@
 									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4407.303448556333!2d130.55570288813428!3d31.592884389081274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbe57487d4f5da29!2zU0FOREVDTyBDT0ZGRUXvvZ7mlbDlrabjgqvjg5XjgqfvvZ4!5e0!3m2!1sja!2sjp!4v1584867673756!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><!-- TODO: なぜか反映されない!! -->
 								</div>
 								<!-- /アクセスマップ -->
-								<p>〇〇駅から徒歩12分（950m）、駐車場ありaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+								<p>市役所前駅から111m、駐車場?????????</p>
 							</section>
 						</div>
 						<!-- /右側セクション -->

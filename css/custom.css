@@ -20,5 +20,5 @@ padding-top: 60px;
 
 #content > h3::before{
 	content: "■";
-
+	color: #343a40;
 }
