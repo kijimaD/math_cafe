@@ -67,7 +67,7 @@
     <!-- サブコンポーネント -->
     <div class="container">
       <!-- ブランド -->
-      <a class="navbar-brand" href="<?php echo home_url('/'); ?>">X COFFEE</a>
+		<a class="navbar-brand" href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a>
       <!-- 切り替えボタン -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
