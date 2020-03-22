@@ -18,28 +18,28 @@
         <div class="carousel-inner">
           <!-- スライド01 -->
           <div class="carousel-item active">
-            <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/images/slide_01.jpg" alt="コーヒー写真" />
+            <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/images/slide_01.jpg" alt="SANDECO COFFEE" />
             <div class="carousel-caption d-none d-md-block">
-              <h2>X COFFEEのこだわり</h2>
-              <p>店主が世界中のコーヒー豆を厳選し、コーヒー豆の種類にあわせ、心を込めて焙煎、抽出しております。</p>
+              <h2>SANDECO COFFEE</h2>
+              <p>aaaaaaaaaaaaaaa(コンセプト)</p>
             </div>
           </div>
           <!-- /スライド01 -->
           <!-- スライド02 -->
           <div class="carousel-item">
-            <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/images/slide_02.jpg" alt="ランチ写真" />
+            <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/images/slide_02.jpg" alt="数学塾" />
             <div class="carousel-caption d-none d-md-block">
-              <h2>X COFFEEのメニュー</h2>
-              <p>各種コーヒーはもちろん、モーニングやワンプレートランチ、季節のスイーツといったメニューもご好評いただいております。</p>
+              <h2>数学塾</h2>
+              <p>aaaaaaaaaaaaaaaaaaaaaaaa</p>
             </div>
           </div>
           <!-- /スライド02 -->
           <!-- スライド03 -->
           <div class="carousel-item">
-            <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/images/slide_03.jpg" alt="店内写真" />
+            <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/images/slide_03.jpg" alt="プログラミング教室" />
             <div class="carousel-caption d-none d-md-block">
-              <h2>X COFFEEの空間</h2>
-              <p>座り心地の良いソファと丁度良い高さのテーブル。くつろぎの空間を満喫してください。</p>
+				<h2>プログラミング教室</h2>
+              <p>aaaaaaaaaaaaaaaaaaaaaaaa</p>
             </div>
           </div>
           <!-- /スライド03 -->
