@@ -108,7 +108,7 @@
         <!-- 右側メニュー: Contactページへのリンク -->
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a href="<?php echo home_url('/'); ?>/question/" class="nav-link btn btn-success text-white">お問い合わせ</a>
+            <a href="<?php echo home_url('/'); ?>question" class="nav-link btn btn-success text-white">お問い合わせ</a>
           </li>
           <li class="nav-item d-block d-md-none mt-1">
             <?php echo get_search_form(); ?>
