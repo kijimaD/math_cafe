@@ -7,11 +7,19 @@ padding-top: 60px;
 }
 
 #content > h2{
-padding: .25em 0 .25em .75em;
-border-left: 6px solid #017AFF;
+    font-size: 1.2em;
+    margin: 0.4em 0 0em 0;
+    font-weight: 700;
+    color: crimson;
+    background:transparent;
 }
+
+#content > h2:first-letter{
+	font-size: 1.4em;
+}
+
 #content > h3{
 margin-left: 1em;
-padding: 0.1em 0 0.1em .75em;
+padding: 0 0 0 .75em;
 border-left:5px double #6C757D;
 }

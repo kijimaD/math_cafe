@@ -18,9 +18,9 @@
 				<div class="carousel-inner">
 					<!-- スライド01 -->
 					<div class="carousel-item active">
-						<img class="img-fluid" src="<?php bloginfo('template_url'); ?>/images/slide_01.jpg" alt="SANDECO COFFEE" />
+						<img class="img-fluid" src="<?php bloginfo('template_url'); ?>/images/slide_01.jpg" alt="<?php bloginfo('name') ?>" />
 						<div class="carousel-caption d-none d-md-block">
-							<h2>SANDECO COFFEE</h2>
+							<h2><?php bloginfo('name') ?></h2>
 							<p>aaaaaaaaaaaaaaa(コンセプト)</p>
 						</div>
 					</div>
@@ -441,8 +441,8 @@
 											<td>PayPay可</td>
 										</tr>
 										<tr>
-											<th>禁煙席</th>
-											<td>喫煙席あり</td>
+											<th>禁煙・喫煙</th>
+											<td>店内全面禁煙</td>
 										</tr>
 										<tr>
 											<th>駐車場</th>
