@@ -341,30 +341,6 @@
 
   <!-- /コンテンツ03 -->
 
-  <!-- コンテンツ04（クーポン） -->
-  <div class="py-4">
-    <section id="coupen">
-      <div class="container">
-        <h3 class="text-center mb-3">クーポン</h3>
-        <!-- カード -->
-        <div class="card text-center text-dark w-75 mx-auto">
-          <div class="card-header bg-success text-white">
-            X COFFEE ランチコーヒークーポン
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">ランチコーヒーを一杯サービス！</h5>
-            <p class="card-text text-justify">ワンプレートランチ（限定数20食）ご注文のお客様に、食後のコーヒー（Sサイズ）をご提供。注文の際にこの画面をスタッフに見せてください。
-          </div>
-          <div class="card-footer bg-success text-white">
-            CODE : 201909L
-          </div>
-        </div>
-        <!-- /カード -->
-      </div>
-    </section>
-  </div>
-  <!-- /コンテンツ04 -->
-
   <!-- コンテンツ05 -->
   <div class="py-4 bg-light">
     <section id="information">
