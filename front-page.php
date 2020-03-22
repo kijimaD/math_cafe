@@ -67,7 +67,7 @@
 			<div class="container">
 				<!-- 上段 -->
 				<div class="row mb-4">
-					<div class="col-md-8 mb-3">
+					<div class="col-md-9 mb-3">
 						<h3 class="mb-3"><?php bloginfo('name'); ?>について</h3>
 						<p>元々数学講師だったオーナーが数学塾をしながらカフェを始めたのがここ、数学カフェ。
 							<p>多くの人が算数や数学に触れるのは学生のみ。本当は楽しい数学のはずが、「勉強」として出会ってしまったことで嫌いになってしまった人も多いのでは？</p>
@@ -75,7 +75,7 @@
 							<a href="#menu" class="btn btn-secondary">メニューを見る</a>
 							<a href="#shop" class="btn btn-secondary">店舗情報を見る</a>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-3">
 						<img src="<?php bloginfo('template_url'); ?>/images/about01.jpg" alt="店主が厳選したこだわりのコーヒー" class="img-fluid rounded float-right" style="width:200px;" />
 					</div>
 				</div>
@@ -92,12 +92,12 @@
 				<!-- 上段 -->
 				<div class="row mb-4">
 					<div class="col-md-3">
-						<img src="<?php bloginfo('template_url'); ?>/images/about01.jpg" alt="店主が厳選したこだわりのコーヒー" class="img-fluid rounded" style="width:200px;" />
+						<img src="<?php bloginfo('template_url'); ?>/images/about02.jpg" alt="店主が厳選したこだわりのコーヒー" class="img-fluid rounded" style="width:200px;" />
 					</div>
 					<div class="col-md-9 mb-3">
 						<h3 class="mb-3">数学塾</h3>
 						<p>〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として</p>
-						<a href="#menu" class="btn btn-secondary">数学塾について</a>
+						<a href="#menu" class="btn btn-primary">数学塾について</a>
 					</div>
 				</div>
 			</div>
@@ -112,13 +112,13 @@
 			<div class="container">
 				<!-- 上段 -->
 				<div class="row mb-4">
-					<div class="col-md-8 mb-3">
+					<div class="col-md-9 mb-3">
 						<h3 class="mb-3">プログラミング教室</h3>
 						<p>〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜</p>
-						<a href="#menu" class="btn btn-secondary">プログラミング教室について</a>
+						<a href="#menu" class="btn btn-primary">プログラミング教室について</a>
 					</div>
-					<div class="col-md-4">
-						<img src="<?php bloginfo('template_url'); ?>/images/about01.jpg" alt="店主が厳選したこだわりのコーヒー" class="img-fluid rounded float-right" style="width:200px;" />
+					<div class="col-md-3">
+						<img src="<?php bloginfo('template_url'); ?>/images/about03.jpg" alt="店主が厳選したこだわりのコーヒー" class="img-fluid rounded float-right" style="width:200px;" />
 					</div>
 				</div>
 			</div>
@@ -222,7 +222,7 @@
 			<div class="container">
 				<h3 class="mb-3">メニュー</h3>
 				<p>
-					カフェ X COFFEEのメニューです。掲載していない季節限定メニューはX COFFEEの<a href="#">ブログ</a>にて紹介しています。
+				    <?php bloginfo('name'); ?>のメニューです。
 				</p>
 
 				<!-- タブ型ナビゲーション -->
@@ -391,7 +391,7 @@
 			<div class="container">
 				<h3 class="mb-3">情報</h3>
 				<p>
-					カフェ X COFFEEは、おしゃれな町並みのなかにあります。駅チカで、立ち寄りやすくなっています。
+					<?php bloginfo('name') ?>は、おしゃれな町並みのなかにあります。駅チカで、立ち寄りやすくなっています。(aaaaaaaaaaaaaaaa)
 					<div class="row">
 						<!-- 左側セクション -->
 						<div class="col-md-6">
@@ -402,11 +402,11 @@
 									<tbody>
 										<tr>
 											<th>店名</th>
-											<td>X COFFEE</td>
+											<td><?php bloginfo('name') ?></td>
 										</tr>
 										<tr>
 											<th>住所</th>
-											<td>〒000-0000　〇〇県〇〇市〇〇町1-2-3</td>
+											<td>〒000-0000　鹿児島県鹿児島市...</td>
 										</tr>
 										<tr>
 											<th>電話番号</th>
@@ -434,7 +434,11 @@
 										</tr>
 										<tr>
 											<th>クレジットカード</th>
-											<td>利用不可</td>
+											<td>可</td>
+										</tr>
+										<tr>
+											<th>キャッシュレス？</th>
+											<td>PayPay可</td>
 										</tr>
 										<tr>
 											<th>禁煙席</th>
@@ -453,14 +457,13 @@
 						<!-- 右側セクション -->
 						<div class="col-md-6">
 							<section id="access">
-								<h4 class="mb-3">Access</h4>
+								<h4 class="mb-3">アクセス</h4>
 								<!-- アクセスマップ -->
 								<div class="embed-responsive embed-responsive-4by3">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2736.687167806293!2d130.5559203458897!3d31.59066576319231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x353e5e01909d0c0f%3A0xefdf24b70c3fbad5!2z44GE44Gl44KN6YCa6aeF!5e0!3m2!1sja!2sjp!4v1568207518024!5m2!1sja!2sjp"
-												 width="800" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4407.303448556333!2d130.55570288813428!3d31.592884389081274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbe57487d4f5da29!2zU0FOREVDTyBDT0ZGRUXvvZ7mlbDlrabjgqvjg5XjgqfvvZ4!5e0!3m2!1sja!2sjp!4v1584867673756!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><!-- TODO: なぜか反映されない!! -->
 								</div>
 								<!-- /アクセスマップ -->
-								<p>〇〇駅から徒歩12分（950m）、駐車場あり</p>
+								<p>〇〇駅から徒歩12分（950m）、駐車場ありaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
 							</section>
 						</div>
 						<!-- /右側セクション -->
