@@ -386,7 +386,7 @@
 	<!-- /コンテンツ03 -->
 
 	<!-- コンテンツ05 -->
-	<div class="py-4 bg-light">
+	<div class="py-4 bg-white">
 		<section id="information">
 			<div class="container">
 				<h3 class="mb-3">情報</h3>
