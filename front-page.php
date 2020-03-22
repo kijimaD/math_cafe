@@ -91,10 +91,10 @@
 			<div class="container">
 				<!-- 上段 -->
 				<div class="row mb-4">
-					<div class="col-md-3">
+					<div class="col-md-3 order-2">
 						<img src="<?php bloginfo('template_url'); ?>/images/about02.jpg" alt="店主が厳選したこだわりのコーヒー" class="img-fluid rounded" style="" />
 					</div>
-					<div class="col-md-9 mb-3">
+					<div class="col-md-9 mb-3 order-1">
 						<h3 class="mb-3">数学塾</h3>
 						<p>〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として</p>
 						<a href="#menu" class="btn btn-primary">数学塾について</a>
