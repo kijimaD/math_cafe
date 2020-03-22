@@ -7,19 +7,18 @@ padding-top: 60px;
 }
 
 #content > h2{
-    font-size: 1.2em;
-    margin: 0.4em 0 0em 0;
+    margin: 0.4em 0 0.2em 0;
     font-weight: 700;
-    color: crimson;
+    color: midnightblue;
     background:transparent;
 }
 
-#content > h2:first-letter{
-	font-size: 1.4em;
+#content > h3{
+	font-size:1.2em;
+	font-weight:bold;
 }
 
-#content > h3{
-margin-left: 1em;
-padding: 0 0 0 .75em;
-border-left:5px double #6C757D;
+#content > h3::before{
+	content: "■";
+
 }
