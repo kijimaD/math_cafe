@@ -84,24 +84,26 @@
 				  <!-- <li class="nav-item">
 					   <a class="nav-link" href="<?php echo home_url('/'); ?>">トップ<span class="sr-only">(current)</span></a>
 					   </li> -->
-				  <!-- ドロップダウン -->
-				  <li class="nav-item dropdown">
-					  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						  店舗情報
-					  </a>
-					  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						  <a class="dropdown-item" href="<?php echo home_url('/'); ?>#menu">メニュー</a>
-						  <!-- <a class="dropdown-item" href="<?php echo home_url('/'); ?>#shop">情報</a> -->
-						  <a class="dropdown-item" href="<?php echo home_url('/'); ?>#access">アクセス</a>
-						  <a class="dropdown-item" href="<?php echo home_url('/'); ?>privacy_policy">プライバシーポリシー</a>
-						  <a class="dropdown-item" href="<?php echo home_url('/'); ?>sitemap">サイトマップ</a>
-					  </div>
+				  <li class="nav-item">
+					  <a class="nav-link" href="<?php echo home_url('/'); ?>#menu">メニュー</a>
 				  </li>
 				  <li class="nav-item">
 					  <a class="nav-link" href="<?php echo home_url('/'); ?>math">数学塾</a>
 				  </li>
 				  <li class="nav-item">
 					  <a class="nav-link" href="<?php echo home_url('/'); ?>programming">プログラミング教室</a>
+				  </li>
+				  <!-- ドロップダウン -->
+				  <li class="nav-item dropdown">
+					  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  店舗情報
+					  </a>
+					  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						  <!-- <a class="dropdown-item" href="<?php echo home_url('/'); ?>#shop">情報</a> -->
+						  <a class="dropdown-item" href="<?php echo home_url('/'); ?>#access">アクセス</a>
+						  <a class="dropdown-item" href="<?php echo home_url('/'); ?>privacy_policy">プライバシーポリシー</a>
+						  <a class="dropdown-item" href="<?php echo home_url('/'); ?>sitemap">サイトマップ</a>
+					  </div>
 				  </li>
         </ul>
 
