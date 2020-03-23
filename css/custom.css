@@ -6,12 +6,24 @@ margin-top: -60px;
 padding-top: 60px;
 }
 
-#content > h2{
-padding: .25em 0 .25em .75em;
-border-left: 6px solid #017AFF;
+#page-title > h2 {
+	font-weight:700;
+	color: #343a40;
 }
+
+#content > h2{
+    margin: 0.4em 0 0.2em 0;
+    font-weight: 700;
+    color: midnightblue;
+    background:transparent;
+}
+
 #content > h3{
-margin-left: 1em;
-padding: 0.1em 0 0.1em .75em;
-border-left:5px double #6C757D;
+	font-size:1.2em;
+	font-weight:bold;
+}
+
+#content > h3::before{
+	content: "■";
+	color: #343a40;
 }

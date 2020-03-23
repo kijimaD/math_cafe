@@ -18,9 +18,9 @@
 				<div class="carousel-inner">
 					<!-- スライド01 -->
 					<div class="carousel-item active">
-						<img class="img-fluid" src="<?php bloginfo('template_url'); ?>/images/slide_01.jpg" alt="SANDECO COFFEE" />
+						<img class="img-fluid" src="<?php bloginfo('template_url'); ?>/images/slide_01.jpg" alt="<?php bloginfo('name') ?>" />
 						<div class="carousel-caption d-none d-md-block">
-							<h2>SANDECO COFFEE</h2>
+							<h2><?php bloginfo('name') ?></h2>
 							<p>aaaaaaaaaaaaaaa(コンセプト)</p>
 						</div>
 					</div>
@@ -72,11 +72,11 @@
 						<p>元々数学講師だったオーナーが数学塾をしながらカフェを始めたのがここ、数学カフェ。
 							<p>多くの人が算数や数学に触れるのは学生のみ。本当は楽しい数学のはずが、「勉強」として出会ってしまったことで嫌いになってしまった人も多いのでは？</p>
 							<p>店内にはミニテストや数学を好きになってもらう仕掛けをご用意しております。話しのネタにしてもいいし、少しでも数学がお客様の日常に馴染む接点の場になれましたら格別の喜びです。</p>
-							<a href="#menu" class="btn btn-secondary">メニューを見る</a>
-							<a href="#shop" class="btn btn-secondary">店舗情報を見る</a>
+							<a href="#menu" class="btn btn-outline-secondary">メニューを見る</a>
+							<a href="#shop" class="btn btn-outline-secondary">店舗情報を見る</a>
 					</div>
 					<div class="col-md-3">
-						<img src="<?php bloginfo('template_url'); ?>/images/about01.jpg" alt="店主が厳選したこだわりのコーヒー" class="img-fluid rounded float-right" style="width:200px;" />
+						<img src="<?php bloginfo('template_url'); ?>/images/about01.jpg" alt="店主が厳選したこだわりのコーヒー" class="img-fluid rounded float-right" style="" />
 					</div>
 				</div>
 			</div>
@@ -86,18 +86,18 @@
 	<!-- /コンテンツ01 -->
 
 	<!-- コンテンツ01-2（店概要） -->
-	<div class="py-4 bg-white">
+	<div class="py-4 bg-light">
 		<section id="about">
 			<div class="container">
 				<!-- 上段 -->
 				<div class="row mb-4">
-					<div class="col-md-3">
-						<img src="<?php bloginfo('template_url'); ?>/images/about02.jpg" alt="店主が厳選したこだわりのコーヒー" class="img-fluid rounded" style="width:200px;" />
-					</div>
-					<div class="col-md-9 mb-3">
+					<div class="col-md-9 mb-3 order-md-1">
 						<h3 class="mb-3">数学塾</h3>
 						<p>〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として</p>
-						<a href="#menu" class="btn btn-primary">数学塾について</a>
+						<a href="<?php echo home_url('/'); ?>math" class="btn btn-outline-primary">数学塾について</a>
+					</div>
+					<div class="col-md-3 order-md-0">
+						<img src="<?php bloginfo('template_url'); ?>/images/about02.jpg" alt="店主が厳選したこだわりのコーヒー" class="img-fluid rounded" style="" />
 					</div>
 				</div>
 			</div>
@@ -112,13 +112,13 @@
 			<div class="container">
 				<!-- 上段 -->
 				<div class="row mb-4">
-					<div class="col-md-9 mb-3">
-						<h3 class="mb-3">プログラミング教室</h3>
+					<div class="col-md-9 mb-3 order-md-1">
+						<h3 class="mb-3 ">プログラミング教室</h3>
 						<p>〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜</p>
-						<a href="#menu" class="btn btn-primary">プログラミング教室について</a>
+						<a href="<?php echo home_url('/'); ?>programming" class="btn btn-outline-primary">プログラミング教室について</a>
 					</div>
-					<div class="col-md-3">
-						<img src="<?php bloginfo('template_url'); ?>/images/about03.jpg" alt="店主が厳選したこだわりのコーヒー" class="img-fluid rounded float-right" style="width:200px;" />
+					<div class="col-md-3 order-md-0">
+						<img src="<?php bloginfo('template_url'); ?>/images/about03.jpg" alt="店主が厳選したこだわりのコーヒー" class="img-fluid rounded float-right" style="" />
 					</div>
 				</div>
 			</div>
@@ -200,7 +200,7 @@
 									endif;
 									?>
 									<div class="col-12">
-										<a href="<?php echo get_term_link($article_cat_name, 'category'); ?>" class="btn btn-secondary btn-block my-3">
+										<a href="<?php echo get_term_link($article_cat_name, 'category'); ?>" class="btn btn-outline-secondary btn-block my-3">
 											<?php echo esc_html(get_category_by_slug($article_cat_name)->name); ?>一覧</a>
 									</div>
 								</div>
@@ -386,12 +386,12 @@
 	<!-- /コンテンツ03 -->
 
 	<!-- コンテンツ05 -->
-	<div class="py-4 bg-light">
+	<div class="py-4 bg-white">
 		<section id="information">
 			<div class="container">
 				<h3 class="mb-3">情報</h3>
 				<p>
-					<?php bloginfo('name') ?>は、おしゃれな町並みのなかにあります。駅チカで、立ち寄りやすくなっています。(aaaaaaaaaaaaaaaa)
+					<?php bloginfo('name') ?>は、おしゃれな町並みのなかにあります。駅チカで、立ち寄りやすくなっています。aaaaaaaaaaaaaaaa
 					<div class="row">
 						<!-- 左側セクション -->
 						<div class="col-md-6">
@@ -406,11 +406,11 @@
 										</tr>
 										<tr>
 											<th>住所</th>
-											<td>〒000-0000　鹿児島県鹿児島市...</td>
+											<td>〒892-0821　鹿児島県鹿児島市名山町4-1名山ビル2F</td>
 										</tr>
 										<tr>
 											<th>電話番号</th>
-											<td>000-0000-0000</td>
+											<td>050-3490-1163</td>
 										</tr>
 										<tr>
 											<th>営業時間</th>
@@ -430,23 +430,23 @@
 										</tr>
 										<tr>
 											<th>定休日</th>
-											<td>水曜日、不定休</td>
+											<td>???????</td>
 										</tr>
 										<tr>
 											<th>クレジットカード</th>
-											<td>可</td>
+											<td>???????</td>
 										</tr>
 										<tr>
-											<th>キャッシュレス？</th>
+											<th>キャッシュレス?????</th>
 											<td>PayPay可</td>
 										</tr>
 										<tr>
-											<th>禁煙席</th>
-											<td>喫煙席あり</td>
+											<th>禁煙・喫煙</th>
+											<td>店内全面禁煙</td>
 										</tr>
 										<tr>
 											<th>駐車場</th>
-											<td>駐車場あり</td>
+											<td>駐車場あり?????</td>
 										</tr>
 									</tbody>
 								</table>
@@ -463,7 +463,7 @@
 									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4407.303448556333!2d130.55570288813428!3d31.592884389081274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbe57487d4f5da29!2zU0FOREVDTyBDT0ZGRUXvvZ7mlbDlrabjgqvjg5XjgqfvvZ4!5e0!3m2!1sja!2sjp!4v1584867673756!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><!-- TODO: なぜか反映されない!! -->
 								</div>
 								<!-- /アクセスマップ -->
-								<p>〇〇駅から徒歩12分（950m）、駐車場ありaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+								<p>市役所前駅から111m、駐車場?????????</p>
 							</section>
 						</div>
 						<!-- /右側セクション -->

@@ -1,9 +1,9 @@
 <article>
   <header class="page-header">
     <div class="col-12 p-0">
-      <h5 class="page-title my-3">
+      <h2 class="page-title my-3">
         <?php the_title(); ?>
-      </h5>
+      </h2>
       <hr>
     </div>
     <div class="col-12">
@@ -13,7 +13,7 @@
     array(
 'alt' => the_title_attribute('echo=0'),
 'title' => the_title_attribute('echo=0'),
-'class' => 'card-img',
+'class' => 'card-img img-thumbnail',
 )
 ); ?>
       </a>
