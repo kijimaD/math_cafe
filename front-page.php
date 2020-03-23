@@ -112,12 +112,12 @@
 			<div class="container">
 				<!-- 上段 -->
 				<div class="row mb-4">
-					<div class="col-md-9 mb-3">
+					<div class="col-md-9 mb-3 order-md-1">
 						<h3 class="mb-3 ">プログラミング教室</h3>
 						<p>〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜</p>
 						<a href="<?php echo home_url('/'); ?>programming" class="btn btn-outline-primary">プログラミング教室について</a>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 order-md-0">
 						<img src="<?php bloginfo('template_url'); ?>/images/about03.jpg" alt="店主が厳選したこだわりのコーヒー" class="img-fluid rounded float-right" style="" />
 					</div>
 				</div>
