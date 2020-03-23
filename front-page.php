@@ -72,8 +72,8 @@
 						<p>元々数学講師だったオーナーが数学塾をしながらカフェを始めたのがここ、数学カフェ。
 							<p>多くの人が算数や数学に触れるのは学生のみ。本当は楽しい数学のはずが、「勉強」として出会ってしまったことで嫌いになってしまった人も多いのでは？</p>
 							<p>店内にはミニテストや数学を好きになってもらう仕掛けをご用意しております。話しのネタにしてもいいし、少しでも数学がお客様の日常に馴染む接点の場になれましたら格別の喜びです。</p>
-							<a href="#menu" class="btn btn-secondary">メニューを見る</a>
-							<a href="#shop" class="btn btn-secondary">店舗情報を見る</a>
+							<a href="#menu" class="btn btn-outline-secondary">メニューを見る</a>
+							<a href="#shop" class="btn btn-outline-secondary">店舗情報を見る</a>
 					</div>
 					<div class="col-md-3">
 						<img src="<?php bloginfo('template_url'); ?>/images/about01.jpg" alt="店主が厳選したこだわりのコーヒー" class="img-fluid rounded float-right" style="" />
@@ -94,7 +94,7 @@
 					<div class="col-md-9 mb-3 order-md-1">
 						<h3 class="mb-3">数学塾</h3>
 						<p>〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として</p>
-						<a href="<?php echo home_url('/'); ?>math" class="btn btn-primary">数学塾について</a>
+						<a href="<?php echo home_url('/'); ?>math" class="btn btn-outline-primary">数学塾について</a>
 					</div>
 					<div class="col-md-3 order-md-0">
 						<img src="<?php bloginfo('template_url'); ?>/images/about02.jpg" alt="店主が厳選したこだわりのコーヒー" class="img-fluid rounded" style="" />
@@ -115,7 +115,7 @@
 					<div class="col-md-9 mb-3">
 						<h3 class="mb-3 ">プログラミング教室</h3>
 						<p>〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜</p>
-						<a href="<?php echo home_url('/'); ?>programming" class="btn btn-primary">プログラミング教室について</a>
+						<a href="<?php echo home_url('/'); ?>programming" class="btn btn-outline-primary">プログラミング教室について</a>
 					</div>
 					<div class="col-md-3">
 						<img src="<?php bloginfo('template_url'); ?>/images/about03.jpg" alt="店主が厳選したこだわりのコーヒー" class="img-fluid rounded float-right" style="" />
@@ -200,7 +200,7 @@
 									endif;
 									?>
 									<div class="col-12">
-										<a href="<?php echo get_term_link($article_cat_name, 'category'); ?>" class="btn btn-secondary btn-block my-3">
+										<a href="<?php echo get_term_link($article_cat_name, 'category'); ?>" class="btn btn-outline-secondary btn-block my-3">
 											<?php echo esc_html(get_category_by_slug($article_cat_name)->name); ?>一覧</a>
 									</div>
 								</div>
