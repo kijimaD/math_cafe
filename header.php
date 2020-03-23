@@ -28,10 +28,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h1>
+          <h1 class="display-4">
               <!-- <a href="<?php echo home_url('/'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.svg" alt="<?php bloginfo('name'); ?>">←(仮)
 				   </a> -->
-              <a href="<?php echo home_url('/'); ?>" class="text-dark" style="font-weight:900">
+              <a href="<?php echo home_url('/'); ?>" class="text-dark" style="font-weight:900;" id="site-name">
 				  <?php bloginfo('name') ?>
               </a>
           </h1>

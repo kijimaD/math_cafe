@@ -6,6 +6,10 @@ margin-top: -60px;
 padding-top: 60px;
 }
 
+h1 > a:hover {
+	text-decoration: none;
+}
+
 #page-title > h2 {
 	font-weight:700;
 	color: #343a40;
