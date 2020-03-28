@@ -230,11 +230,11 @@
 					<!-- タブ01 -->
 					<a class="nav-item nav-link active" id="tab-menu01" data-toggle="tab" href="#panel-menu01" role="tab" aria-controls="panel-menu01" aria-selected="true">コーヒー</a>
 					<!-- タブ02 -->
-					<a class="nav-item nav-link" id="tab-menu02" data-toggle="tab" href="#panel-menu02" role="tab" aria-controls="panel-menu02" aria-selected="false">モーニング</a>
+					<a class="nav-item nav-link" id="tab-menu02" data-toggle="tab" href="#panel-menu02" role="tab" aria-controls="panel-menu02" aria-selected="false">ドリンク</a>
 					<!-- タブ03 -->
 					<a class="nav-item nav-link" id="tab-menu03" data-toggle="tab" href="#panel-menu03" role="tab" aria-controls="panel-menu03" aria-selected="false">ランチ</a>
 					<!-- タブ04 -->
-					<a class="nav-item nav-link" id="tab-menu04" data-toggle="tab" href="#panel-menu04" role="tab" aria-controls="panel-menu04" aria-selected="false">ケーキ</a>
+					<a class="nav-item nav-link" id="tab-menu04" data-toggle="tab" href="#panel-menu04" role="tab" aria-controls="panel-menu04" aria-selected="false">デザート</a>
 				</div>
 				<!-- /タブ型ナビゲーション -->
 
@@ -248,75 +248,66 @@
 								<table class="table table-striped">
 									<tbody>
 										<tr>
-											<th>S ブレンド</th>
-											<td>390円（税別）</td>
+											<th>くまラテ hot</th>
+											<td>557円（税別）</td>
 										</tr>
 										<tr>
-											<th>M ブレンド</th>
-											<td>450円（税別）</td>
+											<th>くまラテ ice</th>
+											<td>563円（税別）</td>
 										</tr>
 										<tr>
-											<th>L ブレンド</th>
-											<td>500円（税別）</td>
+											<th>完全なる自家焙煎コーヒー hot</th>
+											<td>496円（税別）</td>
 										</tr>
 										<tr>
-											<th>XL ブレンド</th>
-											<td>600円（税別）</td>
+											<th>完全なる自家焙煎コーヒー ice</th>
+											<td>496円（税別）</td>
 										</tr>
 										<tr>
-											<th>アイスコーヒー</th>
-											<td>430円（税別）</td>
-										</tr>
-										<tr>
-											<th>ブラジルシングル</th>
-											<td>430円（税別）</td>
-										</tr>
-										<tr>
-											<th>エスプレッソ</th>
-											<td>390円（税別）</td>
-										</tr>
-										<tr>
-											<th>カプチーノ</th>
-											<td>430円（税別）</td>
+											<th>√プチーノ</th>
+											<td>547円（税別）</td>
 										</tr>
 									</tbody>
 								</table>
 							</div>
 							<div class="col-md-5">
-								<img src="<?php bloginfo('template_url'); ?>/images/coffee.jpg" alt"コーヒー" class="img-fluid rounded" />
+								<img src="<?php bloginfo('template_url'); ?>/images/coffee.jpg" alt="コーヒー" class="img-fluid rounded" />
 							</div>
 						</div>
 					</div>
+
 					<!-- パネル02 -->
 					<div class="tab-pane fade border border-top-0" id="panel-menu02" role="tabpanel" aria-labelledby="tab-menu02">
 						<div class="row p-3">
 							<div class="col-md-7 order-md-2">
-								<h4>モーニング</h4>
+								<h4>ドリンク</h4>
 								<table class="table table-striped">
 									<tbody>
 										<tr>
-											<th>ハムトーストセット</th>
-											<td>450円</td>
-											<tr>
-												<th>トーストゆで卵セット</th>
-												<td>500円（税別）</td>
-											</tr>
-											<tr>
-												<th>ピザトーストセット</th>
-												<td>600円（税別）</td>
-											</tr>
-											<tr>
-												<th>野菜たっぷりスープセット</th>
-												<td>390円（税別）</td>
-											</tr>
+											<th>紅茶 hot or ice</th>
+											<td>457円（税別）</td>
+										</tr>
+										<tr>
+											<th>黒糖タピオカバナナジュース</th>
+											<td>569円（税別）</td>
+										</tr>
+										<tr>
+											<th>オレンジジュース</th>
+											<td>401円（税別）</td>
+										</tr>
+										<tr>
+											<th>アップルジュース</th>
+											<td>409円（税別）</td>
+										</tr>
 									</tbody>
 								</table>
 							</div>
 							<div class="col-md-5">
-								<img src="<?php bloginfo('template_url'); ?>/images/morning.jpg" alt"モーニング" class="img-fluid rounded" />
+								<img src="<?php bloginfo('template_url'); ?>/images/drink.jpg" alt="ドリンク" class="img-fluid rounded" />
 							</div>
 						</div>
 					</div>
+
 					<!-- パネル03 -->
 					<div class="tab-pane fade border border-top-0" id="panel-menu03" role="tabpanel" aria-labelledby="tab-menu03">
 						<div class="row p-3">
@@ -325,60 +316,59 @@
 								<table class="table table-striped">
 									<tbody>
 										<tr>
-											<th>ワンプレートランチ</th>
-											<td>1000円（税別）</td>
-											<tr>
-												<th>Mix サンド</th>
-												<td>650円（税別）</td>
-											</tr>
-											<tr>
-												<th>BLTサンド</th>
-												<td>750円（税別）</td>
-											</tr>
-											<tr>
-												<th>ミックス野菜スープ</th>
-												<td>650円（税別）</td>
-											</tr>
+											<th>黒豚なんこつカレー</th>
+											<td>659円（税別）</td>
+										</tr>
+										<tr>
+											<th>すうがっくまバーグ</th>
+											<td>797円（税別）</td>
+										</tr>
+										<tr>
+											<th>ヘルシーなんこつ丼</th>
+											<td>661円（税別）</td>
+										</tr>
+										<tr>
+											<th>牛丼</th>
+											<td>673円（税別）</td>
+										</tr>
 									</tbody>
 								</table>
 							</div>
 							<div class="col-md-5">
-								<img src="<?php bloginfo('template_url'); ?>/images/lunch.jpg" alt"ランチ" class="img-fluid rounded" />
+								<img src="<?php bloginfo('template_url'); ?>/images/lunch.jpg" alt="ランチ" class="img-fluid rounded" />
 							</div>
 						</div>
 					</div>
+
 					<!-- パネル04 -->
 					<div class="tab-pane fade border border-top-0" id="panel-menu04" role="tabpanel" aria-labelledby="tab-menu04">
 						<div class="row p-3">
 							<div class="col-md-7 order-md-2">
-								<h4>ケーキ</h4>
+								<h4>デザート</h4>
 								<table class="table table-striped">
 									<tbody>
 										<tr>
-											<th>ザッハトルテ</th>
-											<td>400円（税別）</td>
-											<tr>
-												<th>チーズケーキ</th>
-												<td>350円（税別）</td>
-											</tr>
-											<tr>
-												<th>日替わりケーキ</th>
-												<td>400円（税別）</td>
-											</tr>
-											<tr>
-												<th>季節のパウンドケーキ</th>
-												<td>450円（税別）</td>
-											</tr>
+											<th>フルーツ温泉しろくまの湯(2〜3人用)</th>
+											<td>1801円（税別）</td>
+										</tr>
+										<tr>
+											<th>ちび熊</th>
+											<td>541円（税別）</td>
+										</tr>
+										<tr>
+											<th>円周率アップルπ</th>
+											<td>314（税別）</td>
+										</tr>
 									</tbody>
 								</table>
 							</div>
 							<div class="col-md-5">
-								<img src="<?php bloginfo('template_url'); ?>/images/cake.jpg" alt"ケーキ" class="img-fluid rounded" />
+								<img src="<?php bloginfo('template_url'); ?>/images/dessert.jpg" alt="デザート" class="img-fluid rounded" />
 							</div>
 						</div>
 					</div>
-				</div>
-				<!-- /タブパネル -->
+
+				</div><!-- /タブパネル -->
 			</div>
 		</section>
 	</div>
