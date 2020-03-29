@@ -21,7 +21,7 @@
 						<img class="img-fluid" src="<?php bloginfo('template_url'); ?>/images/slide_01.jpg" alt="<?php bloginfo('name') ?>" />
 						<div class="carousel-caption d-none d-md-block">
 							<h2><?php bloginfo('name') ?></h2>
-							<p>aaaaaaaaaaaaaaa(コンセプト)</p>
+							<p>3Dしろくま＆自家焙煎コーヒー</p>
 						</div>
 					</div>
 					<!-- /スライド01 -->
@@ -30,7 +30,7 @@
 						<img class="img-fluid" src="<?php bloginfo('template_url'); ?>/images/slide_02.jpg" alt="数学塾" />
 						<div class="carousel-caption d-none d-md-block">
 							<h2>数学塾</h2>
-							<p>aaaaaaaaaaaaaaaaaaaaaaaa</p>
+							<p>数学を好きになる塾</p>
 						</div>
 					</div>
 					<!-- /スライド02 -->
@@ -39,7 +39,7 @@
 						<img class="img-fluid" src="<?php bloginfo('template_url'); ?>/images/slide_03.jpg" alt="プログラミング教室" />
 						<div class="carousel-caption d-none d-md-block">
 							<h2>プログラミング教室</h2>
-							<p>aaaaaaaaaaaaaaaaaaaaaaaa</p>
+							<p>すべての人に創る力を</p>
 						</div>
 					</div>
 					<!-- /スライド03 -->
@@ -92,7 +92,7 @@
 				<div class="row mb-4">
 					<div class="col-md-9 mb-3 order-md-1">
 						<h3 class="mb-3">数学塾</h3>
-						<p>〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として…高校生…〜時から〜時は数学塾として</p>
+						<p>数学は年齢も性別も、社会的地位も関係なく、誰にでも平等です。難しい問題が解けた時の爽快感!　そんな数学の魅力と面白さを伝える塾です。</p>
 						<a href="<?php echo home_url('/'); ?>math" class="btn btn-outline-primary">数学塾について</a>
 					</div>
 					<div class="col-md-3 order-md-0">
@@ -113,7 +113,7 @@
 				<div class="row mb-4">
 					<div class="col-md-9 mb-3 order-md-1">
 						<h3 class="mb-3 ">プログラミング教室</h3>
-						<p>〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜プログラミング教室も開講しています〜〜</p>
+						<p>2020年から必修化となるプログラミング。日本一楽しんで学べる教室です。</p>
 						<a href="<?php echo home_url('/'); ?>programming" class="btn btn-outline-primary">プログラミング教室について</a>
 					</div>
 					<div class="col-md-3 order-md-0">
@@ -452,7 +452,7 @@
 									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4407.303448556333!2d130.55570288813428!3d31.592884389081274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbe57487d4f5da29!2zU0FOREVDTyBDT0ZGRUXvvZ7mlbDlrabjgqvjg5XjgqfvvZ4!5e0!3m2!1sja!2sjp!4v1584867673756!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><!-- TODO: なぜか反映されない!! -->
 								</div>
 								<!-- /アクセスマップ -->
-								<p>市役所前駅から111m、駐車場?????????</p>
+								<p>鹿児島市電「市役所前駅」から徒歩1分</p>
 							</section>
 						</div>
 						<!-- /右側セクション -->
