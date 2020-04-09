@@ -42,24 +42,23 @@
         <!-- カスタムメニュー（utility） -->
         <div class="col-md-6">
 			<div class="row">
-				<div id="utility_group" class="col-md-12 text-right d-none d-lg-block">
-					<?php
-					/*
-					   wp_nav_menu(array(
-					   'container' => 'ul',
-					   'container_id' => 'utility-nav',
-					   'theme_location' => 'place_utility',
-					   'menu_class' => 'list-inline',
-					   ));
-					 */
-					?>
+				<div class="col-md-12 d-none d-lg-block" id="custom_menu">
+					<div id="language" class="widget-area d-block">
+						<!-- Language -->
+						<small>
+						<ul style="list-style:none;" class="float-right">
+							<?php dynamic_sidebar('language-widget-area'); ?>
+						</ul>
+						</small>
+					</div>
 				</div>
-				<!-- /カスタムメニュー（utility） -->
 				<div class="col-md-12 d-none d-lg-block" id="custom_menu">
 					<?php echo get_search_form(); ?>
 				</div>
 			</div>
         </div>
+		<!-- /カスタムメニュー（utility） -->
+
       </div>
     </div>
   </header>
