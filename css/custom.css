@@ -15,19 +15,19 @@ h1 > a:hover {
 	color: #343a40;
 }
 
-#content > h2{
+#content > h2 {
     margin: 0.4em 0 0.2em 0;
     font-weight: 700;
     color: midnightblue;
     background:transparent;
 }
 
-#content > h3{
+#content > h3 {
 	font-size:1.2em;
 	font-weight:bold;
 }
 
-#content > h3::before{
+#content > h3::before {
 	content: "■";
 	color: #343a40;
 }
@@ -40,3 +40,4 @@ li.lang-item {
 #polylang-2 > ul {
 	padding-left:0px;
 }
+
