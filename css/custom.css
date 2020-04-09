@@ -32,6 +32,12 @@ h1 > a:hover {
 	color: #343a40;
 }
 
-ul {
-	list-style: none;
+li.lang-item {
+     border-bottom: none;
+     display: inline;
 }
+
+#polylang-2 > ul {
+	padding-left:0px;
+}
+

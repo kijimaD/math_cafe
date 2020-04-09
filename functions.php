@@ -8,7 +8,7 @@ function add_js()
         get_template_directory_uri() . '/js/bootstrap.bundle.js',
         array('jquery'),
         true
-        );
+    );
 }
 add_action('wp_enqueue_scripts', 'add_js');
 
@@ -16,19 +16,19 @@ add_action('wp_enqueue_scripts', 'add_js');
 add_theme_support(
     'custom-header',
     array(
-    'width' => 950,
-    'height' => 295,
-    'header-text' => false,
-    'default-image' => '%s/images/slide_01.jpg',
-  )
+		'width' => 950,
+		'height' => 295,
+		'header-text' => false,
+		'default-image' => '%s/images/slide_01.jpg',
+	)
 );
 
 // カスタムメニュー
 register_nav_menus(
     array(
-    'place_global' => 'グローバル',
-    'place_utility' => 'ユーティリティ',
-  )
+		'place_global' => 'グローバル',
+		'place_utility' => 'ユーティリティ',
+	)
 );
 
 // 開発用、キャッシュを常に新しくして読み込ませる
@@ -54,23 +54,33 @@ add_image_size('pickup_thumbnail', 302, 123, true);
 
 // ウィジェット
 register_sidebar(array(
-  'name' => 'サイドバーウィジェットエリア（上）',
-  'id' => 'primary-widget-area',
-  'description' => 'サイドバー上部のウィジェットエリア',
-  'before_widget' => '<aside id="%1$s" class="widget-container %2$s">',
-  'after_widget' => '</aside>',
-  'before_title' => '<h1 class="widget-title">',
-  'after_title' => '</h1>'
+	'name' => 'サイドバーウィジェットエリア（上）',
+	'id' => 'primary-widget-area',
+	'description' => 'サイドバー上部のウィジェットエリア',
+	'before_widget' => '<aside id="%1$s" class="widget-container %2$s">',
+	'after_widget' => '</aside>',
+	'before_title' => '<h1 class="widget-title">',
+	'after_title' => '</h1>'
 ));
 
 register_sidebar(array(
-  'name' => 'サイドバーウィジェットエリア（下）',
-  'id' => 'secondary-widget-area',
-  'description' => 'サイドバー下部のウィジェットエリア',
-  'before_widget' => '<aside id="%1$s" class="widget-container %2$s">',
-  'after-widget' => '</aside>',
-  'before_title' => '<h1 class="widget-title">',
-  'after_title' => '</h1>',
+	'name' => 'サイドバーウィジェットエリア（下）',
+	'id' => 'secondary-widget-area',
+	'description' => 'サイドバー下部のウィジェットエリア',
+	'before_widget' => '<aside id="%1$s" class="widget-container %2$s">',
+	'after-widget' => '</aside>',
+	'before_title' => '<h1 class="widget-title">',
+	'after_title' => '</h1>',
+));
+
+register_sidebar(array(
+	'name' => 'トップ右ウィジェット(言語用)',
+	'id' => 'language-widget-area',
+	'description' => '言語用トップ右ウィジェット',
+	'before_widget' => '<aside id="%1$s" class="widget-container %2$s">',
+	'after-widget' => '</aside>',
+	'before_title' => '<small class="widget-title">',
+	'after_title' => '</small>',
 ));
 
 // 抜粋文が自動的に生成される場合に最後に付与される文字列を変更します。
@@ -171,6 +181,6 @@ add_filter('page_navi', 'add_page_navi_class');
 function add_page_navi_class($output)
 {
     if (function_exists('page_navi')):
-      return str_replace('<a href=', '<a class="page-link border-0 text-dark" href=', $output);
+    return str_replace('<a href=', '<a class="page-link border-0 text-dark" href=', $output);
     endif;
 }
