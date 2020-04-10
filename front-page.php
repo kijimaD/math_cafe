@@ -71,8 +71,8 @@
 						<h3 class="mb-3"><?php bloginfo('name'); ?>について</h3>
 						<p>元々数学講師だったオーナーが数学塾をしながらカフェを始めたのがここ、数学カフェ。多くの人が算数や数学に触れるのは学生のみ。本当は楽しい数学のはずが、「勉強」として出会ってしまったことで嫌いになってしまった人も多いのでは？<br><br>
 							店内にはミニテストや数学を好きになってもらう仕掛けをご用意しております。話しのネタにしてもいいし、少しでも数学がお客様の日常に馴染む接点の場になれましたら格別の喜びです。</p>
-							<a href="#menu" class="btn btn-outline-secondary">メニューを見る</a>
-							<a href="#shop" class="btn btn-outline-secondary">店舗情報を見る</a>
+						<a href="#menu" class="btn btn-outline-secondary">メニューを見る</a>
+						<a href="#shop" class="btn btn-outline-secondary">店舗情報を見る</a>
 					</div>
 					<div class="col-md-3">
 						<img src="<?php bloginfo('template_url'); ?>/images/about01.jpg" alt="店主が厳選したこだわりのコーヒー" class="img-fluid rounded float-right" style="" />
@@ -135,75 +135,82 @@
 					<!-- whileバージョン -->
 					<?php
 
+					if(get_locale() == 'ja'):
 					$article_cat_list = array(
 						'information' => 2,
 						'column' => 2,
 					);
+					else:
+					$article_cat_list = array(
+						'information-en' => 2,
+						'column-en' => 2,
+					);
+					endif;
 
 					foreach ($article_cat_list as $article_cat_name => $article_cat_num) :
 										$article_posts = new WP_Query('posts_per_page=' . $article_cat_num . '&category_name=' . $article_cat_name);
 					?>
-						<div class="col-lg-6 my-3">
-							<aside id="<?php echo $article_cat_name; ?>-info" class="news-list">
-								<h3 class="my-3">
-									<?php echo esc_html(get_category_by_slug($article_cat_name)->name); ?>
-								</h3>
-								<hr>
-								<div class="row">
-									<?php
-									if ($article_posts->have_posts()):
-									while ($article_posts->have_posts()):
-									$article_posts->the_post();
-									?>
-										<!-- コンテンツ繰り返し部分 -->
-										<div class="card border-0 my-3 px-3">
-											<div class="row">
-												<div class="col-12">
-													<a href="<?php the_permalink(); ?>" class="post-link">
-														<?php the_post_thumbnail(
-															'medium',
-															array(
-																'alt' => the_title_attribute('echo=0'),
-																'title' =>
-																	the_title_attribute('echo=0'),
-																'class' =>
-																	'card-img',
-															)
-														); ?>
-													</a>
-												</div>
-												<div class="col-12">
-													<div class="card-body">
-														<h5>
-															<a href="<?php the_permalink(); ?>">
-																<?php the_title(); ?></a>
-														</h5>
-														<small>
-															<time class="entry-date" datetime="<?php the_time('Y-m-d'); ?>">
-																<?php the_time(get_option('date_format')); ?>
-															</time>
-														</small>
-														<hr>
-														<h5 class="card-title"><a href="<?php the_permalink(); ?>"></a>
-														</h5>
-														<div class="card-text">
-															<?php the_pickup_excerpt(); ?>
-														</div>
+					<div class="col-lg-6 my-3">
+						<aside id="<?php echo $article_cat_name; ?>-info" class="news-list">
+							<h3 class="my-3">
+								<?php echo esc_html(get_category_by_slug($article_cat_name)->name); ?>
+							</h3>
+							<hr>
+							<div class="row">
+								<?php
+								if ($article_posts->have_posts()):
+								while ($article_posts->have_posts()):
+								$article_posts->the_post();
+								?>
+									<!-- コンテンツ繰り返し部分 -->
+									<div class="card border-0 my-3 px-3">
+										<div class="row">
+											<div class="col-12">
+												<a href="<?php the_permalink(); ?>" class="post-link">
+													<?php the_post_thumbnail(
+														'medium',
+														array(
+															'alt' => the_title_attribute('echo=0'),
+															'title' =>
+																the_title_attribute('echo=0'),
+															'class' =>
+																'card-img',
+														)
+													); ?>
+												</a>
+											</div>
+											<div class="col-12">
+												<div class="card-body">
+													<h5>
+														<a href="<?php the_permalink(); ?>">
+															<?php the_title(); ?></a>
+													</h5>
+													<small>
+														<time class="entry-date" datetime="<?php the_time('Y-m-d'); ?>">
+															<?php the_time(get_option('date_format')); ?>
+														</time>
+													</small>
+													<hr>
+													<h5 class="card-title"><a href="<?php the_permalink(); ?>"></a>
+													</h5>
+													<div class="card-text">
+														<?php the_pickup_excerpt(); ?>
 													</div>
 												</div>
 											</div>
 										</div>
-										<!-- コンテンツ繰り返し部分 -->
-									<?php
-									endwhile;
-									endif;
-									?>
-									<div class="col-12">
-										<a href="<?php echo get_term_link($article_cat_name, 'category'); ?>" class="btn btn-outline-secondary btn-block my-3">
-											<?php echo esc_html(get_category_by_slug($article_cat_name)->name); ?>一覧</a>
 									</div>
+									<!-- コンテンツ繰り返し部分 -->
+								<?php
+								endwhile;
+								endif;
+								?>
+								<div class="col-12">
+									<a href="<?php echo get_term_link($article_cat_name, 'category'); ?>" class="btn btn-outline-secondary btn-block my-3">
+										<?php echo esc_html(get_category_by_slug($article_cat_name)->name); ?>一覧</a>
 								</div>
-						</div>
+							</div>
+					</div>
 					<?php
 					endforeach;
 					?>
