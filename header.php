@@ -24,7 +24,7 @@
 	<body>
 
 		<!-- ヘッダー -->
-		<header class="py-4">
+		<header class="py-2">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
@@ -43,22 +43,14 @@
 					<div class="col-md-6">
 						<div class="row">
 							<div class="col-md-12 d-none d-lg-block" id="custom_menu">
-								<div id="language" class="widget-area d-block">
-									<!-- Language -->
-									<small>
-										<ul style="list-style:none;" class="float-right">
-											<?php dynamic_sidebar('language-widget-area'); ?>
-										</ul>
-									</small>
-								</div>
-							</div>
-							<div class="col-md-12 d-none d-lg-block" id="custom_menu">
 								<?php echo get_search_form(); ?>
+							</div>
+							<div class="col-md-12 text-right my-0 py-0" id="custom_menu">
+								<?php pll_the_languages(); ?>
 							</div>
 						</div>
 					</div>
 					<!-- /カスタムメニュー（utility） -->
-
 				</div>
 			</div>
 		</header>

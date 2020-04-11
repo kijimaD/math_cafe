@@ -77,10 +77,6 @@ register_sidebar(array(
 	'name' => 'トップ右ウィジェット(言語用)',
 	'id' => 'language-widget-area',
 	'description' => '言語用トップ右ウィジェット',
-	'before_widget' => '<aside id="%1$s" class="widget-container %2$s">',
-	'after-widget' => '</aside>',
-	'before_title' => '<small class="widget-title">',
-	'after_title' => '</small>',
 ));
 
 // 抜粋文が自動的に生成される場合に最後に付与される文字列を変更します。
@@ -183,4 +179,13 @@ function add_page_navi_class($output)
     if (function_exists('page_navi')):
     return str_replace('<a href=', '<a class="page-link border-0 text-dark" href=', $output);
     endif;
+}
+
+// polylangにclass付加
+add_filter( 'pll_the_languages', 'theme_pll_the_languages');
+function theme_pll_the_languages($output)
+{
+	if (function_exists('pll_the_languages')):
+	return str_replace('li class="', 'li class="nav-item ', $output);
+	endif;
 }
