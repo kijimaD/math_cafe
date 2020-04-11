@@ -44,7 +44,7 @@
 							</a>
 						</div>
 						<div class="col-12">
-							<div class="card-body">
+							<div class="card-body px-0">
 								<time class="entry-date" datetime="<?php the_time('Y-m-d'); ?>">
 									<?php the_time(get_option('date_format')); ?>
 								</time>
