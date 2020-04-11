@@ -120,11 +120,13 @@
 				<div class="row">
 					<div class="col-12">
 						<nav>
+							<small>
 							<?php
 							if (!is_front_page() && function_exists('bread_crumb')) :
-							bread_crumb('elm_class=breadcrumb bg-white px-0&elm_id=breadcrumb&li_class=breadcrumb-item&current_class=active');
+							bread_crumb('elm_class=breadcrumb bg-white px-0 py-0&elm_id=breadcrumb&li_class=breadcrumb-item&current_class=active');
 							endif;
 							?>
+							</small>
 						</nav>
 					</div>
 				</div>
