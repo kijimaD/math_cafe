@@ -35,8 +35,9 @@
 								<?php bloginfo('name') ?>
 							</a>
 						</h1>
-						<small class="">
-							<?php bloginfo('description'); ?></small>
+						<small class="text-dark">
+							<?php bloginfo('description'); ?>
+						</small>
 					</div>
 
 					<!-- カスタムメニュー（utility） -->
@@ -46,7 +47,9 @@
 								<?php echo get_search_form(); ?>
 							</div>
 							<div class="col-md-12 text-right my-0 py-0" id="custom_menu">
-								<?php pll_the_languages(); ?>
+								<small>
+									<?php pll_the_languages(); ?>
+								</small>
 							</div>
 						</div>
 					</div>
