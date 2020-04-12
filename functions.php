@@ -189,3 +189,21 @@ function theme_pll_the_languages($output)
 	return str_replace('li class="', 'li class="nav-item ', $output);
 	endif;
 }
+
+function switch_lang($text_data, $entry){
+	if(get_locale() == 'ja'):
+	$output = $text_data[$entry][0];
+	else:
+	$output = $text_data[$entry][1];
+	endif;
+	echo $output;
+}
+
+/* ↑こんな感じで連想配列を用意する */
+/* $text_data = [
+ * 	'lang' => ['ja', 'en'],
+ * 	'menu' => ['メニュー', 'Menu'],
+ * 	'math' => ['数学塾', 'Math'],
+ * 	'programming' => ['プログラミング教室', 'Programming'],
+ * 	'info' => ['店舗情報', 'Info'],
+ * ]; */

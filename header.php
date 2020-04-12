@@ -1,5 +1,15 @@
+<?php
+$text_data = [
+	'lang' => ['ja', 'en'],
+	'menu' => ['メニュー', 'Menu'],
+	'math' => ['数学塾', 'Math'],
+	'programming' => ['プログラミング教室', 'Programming'],
+	'info' => ['店舗情報', 'Info'],
+];
+?>
+
 <!DOCTYPE html>
-<html lang="ja">
+<html lang='<?php switch_lang($text_data, 'lang'); ?>'>
 
 	<head>
 		<!-- Required meta tags -->
@@ -79,18 +89,18 @@
 							 <a class="nav-link" href="<?php echo home_url('/'); ?>">トップ<span class="sr-only">(current)</span></a>
 							 </li> -->
 						<li class="nav-item">
-							<a class="nav-link" href="<?php echo home_url('/'); ?>#menu">メニュー</a>
+							<a class="nav-link" href="<?php echo home_url('/'); ?>#menu"><?php switch_lang($text_data, 'menu'); ?></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="<?php echo home_url('/'); ?>math">数学塾</a>
+							<a class="nav-link" href="<?php echo home_url('/'); ?>math"><?php switch_lang($text_data, 'math'); ?></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="<?php echo home_url('/'); ?>programming">プログラミング教室</a>
+							<a class="nav-link" href="<?php echo home_url('/'); ?>programming"><?php switch_lang($text_data, 'programming'); ?></a>
 						</li>
 						<!-- ドロップダウン -->
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								店舗情報
+								<?php switch_lang($text_data, 'info'); ?>
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<!-- <a class="dropdown-item" href="<?php echo home_url('/'); ?>#shop">情報</a> -->
