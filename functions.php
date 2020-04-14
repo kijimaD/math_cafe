@@ -93,6 +93,11 @@ function cms_excerpt_length()
 }
 add_filter('excerpt_mblength', 'cms_excerpt_length');
 
+function en_length($length) {
+    return 20;
+}
+add_filter('excerpt_length', 'en_length');
+
 // 固定ページで抜粋文を入力できるようにする。
 add_post_type_support('page', 'excerpt');
 
