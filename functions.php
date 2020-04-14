@@ -207,3 +207,10 @@ function switch_lang($text_data, $entry){
  * 	'programming' => ['プログラミング教室', 'Programming'],
  * 	'info' => ['店舗情報', 'Info'],
  * ]; */
+
+function suffix_en(){
+	if(get_locale() == 'ja'):
+	else:
+	echo "-en";
+	endif;
+}

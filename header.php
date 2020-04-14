@@ -11,6 +11,9 @@ $text_data = [
 	'privacy_policy' => ['プライバシーポリシー','Privacy Policy'],
 	'sitemap' => ['サイトマップ','Sitemap'],
 ];
+
+/* 固定ページの英語版は末尾に-enをつけたものにした。 */
+
 ?>
 
 <!DOCTYPE html>
@@ -97,10 +100,10 @@ $text_data = [
 							<a class="nav-link" href="<?php echo home_url('/'); ?>#menu"><?php switch_lang($text_data, 'menu'); ?></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="<?php echo home_url('/'); ?>math"><?php switch_lang($text_data, 'math'); ?></a>
+							<a class="nav-link" href="<?php echo home_url('/'); ?>math<?php suffix_en(); ?>"><?php switch_lang($text_data, 'math'); ?></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="<?php echo home_url('/'); ?>programming"><?php switch_lang($text_data, 'programming'); ?></a>
+							<a class="nav-link" href="<?php echo home_url('/'); ?>programming<?php suffix_en(); ?>"><?php switch_lang($text_data, 'programming'); ?></a>
 						</li>
 						<!-- ドロップダウン -->
 						<li class="nav-item dropdown">
@@ -110,8 +113,8 @@ $text_data = [
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<!-- <a class="dropdown-item" href="<?php echo home_url('/'); ?>#shop">情報</a> -->
 								<a class="dropdown-item" href="<?php echo home_url('/'); ?>#access"><?php switch_lang($text_data, 'access'); ?></a>
-								<a class="dropdown-item" href="<?php echo home_url('/'); ?>privacy_policy"><?php switch_lang($text_data, 'privacy_policy'); ?></a>
-								<a class="dropdown-item" href="<?php echo home_url('/'); ?>sitemap"><?php switch_lang($text_data, 'sitemap'); ?></a>
+								<a class="dropdown-item" href="<?php echo home_url('/'); ?>privacy-policy<?php suffix_en(); ?>"><?php switch_lang($text_data, 'privacy_policy'); ?></a>
+								<a class="dropdown-item" href="<?php echo home_url('/'); ?>sitemap<?php suffix_en(); ?>"><?php switch_lang($text_data, 'sitemap'); ?></a>
 							</div>
 						</li>
 					</ul>
