@@ -32,8 +32,9 @@
       <ul class="list-inline text-right">
         <li class="list-inline-item">
           <time pubdate="pubdate" datetime"<?php the_time('Y-m-d'); ?>" class="entry-date">
-            <small class="text-muted">
-              <?php the_time(get_option('date_format')); ?></small>
+              <small class="text-muted">
+				  <?php switch_date(); ?>
+			</small>
           </time>
         </li>
         <li class="list-inline-item">

@@ -1,3 +1,9 @@
+<?php
+$text_data = [
+'list' => ['一覧', ' List'],
+];
+?>
+
 <div class="col-md-4 shadow rounded">
 	<!-- サイドバー -->
 	<!-- primary -->
@@ -46,7 +52,7 @@
 						<div class="col-12">
 							<div class="card-body px-0">
 								<time class="entry-date" datetime="<?php the_time('Y-m-d'); ?>">
-									<?php the_time(get_option('date_format')); ?>
+									<?php switch_date(); ?>
 								</time>
 								<h5 class="card-title"><a href="<?php the_permalink(); ?>">
 									<?php the_title(); ?></a>
@@ -64,7 +70,7 @@
 			?>
 			<div class="col-md-12 mb-5">
 				<a href="<?php echo get_term_link($sidebar_cat_name, 'category'); ?>" class="btn btn-outline-secondary btn-block my-0">
-					<?php echo esc_html(get_category_by_slug($sidebar_cat_name)->name); ?>一覧
+					<?php echo esc_html(get_category_by_slug($sidebar_cat_name)->name); ?><?php switch_lang($text_data, 'list'); ?>
 					</a>
 				</div>
 			</aside>

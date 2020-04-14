@@ -218,6 +218,14 @@ function switch_lang($text_data, $entry){
  * 	'info' => ['店舗情報', 'Info'],
  * ]; */
 
+function switch_date(){
+	if(get_locale() == 'ja'):
+	echo the_time(get_option('date_format'));
+	else:
+	echo get_post_time('F jS, Y');
+	endif;
+}
+
 function suffix_en(){
 	if(get_locale() == 'ja'):
 	else:
