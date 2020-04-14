@@ -1,10 +1,15 @@
 <?php
+/* 外部ファイルにして共通化する？headerだけでなく、こまごましたところで用いるため。 */
 $text_data = [
 	'lang' => ['ja', 'en'],
 	'menu' => ['メニュー', 'Menu'],
 	'math' => ['数学塾', 'Math'],
 	'programming' => ['プログラミング教室', 'Programming'],
 	'info' => ['店舗情報', 'Info'],
+	'contact' => ['お問い合わせ', 'Contact Us'],
+	'access' => ['アクセス','Access'],
+	'privacy_policy' => ['プライバシーポリシー','Privacy Policy'],
+	'sitemap' => ['サイトマップ','Sitemap'],
 ];
 ?>
 
@@ -104,9 +109,9 @@ $text_data = [
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<!-- <a class="dropdown-item" href="<?php echo home_url('/'); ?>#shop">情報</a> -->
-								<a class="dropdown-item" href="<?php echo home_url('/'); ?>#access">アクセス</a>
-								<a class="dropdown-item" href="<?php echo home_url('/'); ?>privacy_policy">プライバシーポリシー</a>
-								<a class="dropdown-item" href="<?php echo home_url('/'); ?>sitemap">サイトマップ</a>
+								<a class="dropdown-item" href="<?php echo home_url('/'); ?>#access"><?php switch_lang($text_data, 'access'); ?></a>
+								<a class="dropdown-item" href="<?php echo home_url('/'); ?>privacy_policy"><?php switch_lang($text_data, 'privacy_policy'); ?></a>
+								<a class="dropdown-item" href="<?php echo home_url('/'); ?>sitemap"><?php switch_lang($text_data, 'sitemap'); ?></a>
 							</div>
 						</li>
 					</ul>
@@ -114,7 +119,7 @@ $text_data = [
 					<!-- 右側メニュー: Contactページへのリンク -->
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a href="<?php echo home_url('/'); ?>question" class="nav-link btn btn-success text-white">お問い合わせ</a>
+							<a href="<?php echo home_url('/'); ?>question" class="nav-link btn btn-success text-white"><?php switch_lang($text_data, 'contact'); ?></a>
 						</li>
 						<li class="nav-item d-block d-md-none mt-1">
 							<?php echo get_search_form(); ?>
@@ -134,11 +139,11 @@ $text_data = [
 					<div class="col-12">
 						<nav>
 							<small>
-							<?php
-							if (!is_front_page() && function_exists('bread_crumb')) :
-							bread_crumb('elm_class=breadcrumb bg-white px-0 py-0&elm_id=breadcrumb&li_class=breadcrumb-item&current_class=active');
-							endif;
-							?>
+								<?php
+								if (!is_front_page() && function_exists('bread_crumb')) :
+								bread_crumb('elm_class=breadcrumb bg-white px-0 py-0&elm_id=breadcrumb&li_class=breadcrumb-item&current_class=active');
+								endif;
+								?>
 							</small>
 						</nav>
 					</div>
