@@ -77,10 +77,6 @@ register_sidebar(array(
 	'name' => 'トップ右ウィジェット(言語用)',
 	'id' => 'language-widget-area',
 	'description' => '言語用トップ右ウィジェット',
-	'before_widget' => '<aside id="%1$s" class="widget-container %2$s">',
-	'after-widget' => '</aside>',
-	'before_title' => '<small class="widget-title">',
-	'after_title' => '</small>',
 ));
 
 // 抜粋文が自動的に生成される場合に最後に付与される文字列を変更します。
@@ -96,6 +92,16 @@ function cms_excerpt_length()
     return 120;
 }
 add_filter('excerpt_mblength', 'cms_excerpt_length');
+
+/* 英語時の抜粋文 */
+function en_length($length) {
+    return 20;
+}
+if(get_locale() == 'ja'):
+else:
+add_filter('excerpt_length', 'en_length');
+endif;
+
 
 // 固定ページで抜粋文を入力できるようにする。
 add_post_type_support('page', 'excerpt');
@@ -183,4 +189,46 @@ function add_page_navi_class($output)
     if (function_exists('page_navi')):
     return str_replace('<a href=', '<a class="page-link border-0 text-dark" href=', $output);
     endif;
+}
+
+// polylangにclass付加
+add_filter( 'pll_the_languages', 'theme_pll_the_languages');
+function theme_pll_the_languages($output)
+{
+	if (function_exists('pll_the_languages')):
+	return str_replace('li class="', 'li class="nav-item ', $output);
+	endif;
+}
+
+function switch_lang($text_data, $entry){
+	if(get_locale() == 'ja'):
+	$output = $text_data[$entry][0];
+	else:
+	$output = $text_data[$entry][1];
+	endif;
+	echo $output;
+}
+
+/* ↑こんな感じで連想配列を用意する */
+/* $text_data = [
+ * 	'lang' => ['ja', 'en'],
+ * 	'menu' => ['メニュー', 'Menu'],
+ * 	'math' => ['数学塾', 'Math'],
+ * 	'programming' => ['プログラミング教室', 'Programming'],
+ * 	'info' => ['店舗情報', 'Info'],
+ * ]; */
+
+function switch_date(){
+	if(get_locale() == 'ja'):
+	echo the_time(get_option('date_format'));
+	else:
+	echo get_post_time('F jS, Y');
+	endif;
+}
+
+function suffix_en(){
+	if(get_locale() == 'ja'):
+	else:
+	echo "-en";
+	endif;
 }

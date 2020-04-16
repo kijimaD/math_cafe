@@ -1,12 +1,12 @@
 <article>
   <header class="page-header">
     <div class="col-12 p-0">
-      <h2 class="page-title my-3">
-        <?php the_title(); ?>
-      </h2>
-      <hr>
+		<h2 class="page-title mt-3 mb-0 h2">
+			<?php the_title(); ?>
+		</h2>
+		<hr class="mt-0 mb-4" style="height:2px; background-color:#343a40;">
     </div>
-    <div class="col-12">
+    <div class="col-12 px-0">
       <a href="<?php the_permalink(); ?>" class="post-link">
         <?php the_post_thumbnail(
     'medium',
@@ -32,8 +32,9 @@
       <ul class="list-inline text-right">
         <li class="list-inline-item">
           <time pubdate="pubdate" datetime"<?php the_time('Y-m-d'); ?>" class="entry-date">
-            <small class="text-muted">
-              <?php the_time(get_option('date_format')); ?></small>
+              <small class="text-muted">
+				  <?php switch_date(); ?>
+			</small>
           </time>
         </li>
         <li class="list-inline-item">
