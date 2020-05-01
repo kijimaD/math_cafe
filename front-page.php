@@ -470,12 +470,10 @@ $text_data = [
 					<th><?php switch_lang($text_data, 'info_table_parking_head'); ?></th>
 					<td><?php switch_lang($text_data, 'info_table_parking_body'); ?></td>
 				    </tr>
-				</tbody>
-			    </table>
-
-			    <h4 class="mb-3">SNS</h4>
-			    <table class="table table-hover">
-				<tbody>
+				    <tr class="bg-light">
+					<th>SNS</th>
+					<td></td>
+				    </tr>
 				    <tr>
 					<th>Instagram</th>
 					<td><a href="https://www.instagram.com/mathscafe/?hl=ja">mathscafe</td>
@@ -490,6 +488,7 @@ $text_data = [
 				    </tr>
 				</tbody>
 			    </table>
+
 			    <!-- /店舗情報の表 -->
 						</section>
 					</div>
