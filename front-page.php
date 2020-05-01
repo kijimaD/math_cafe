@@ -472,6 +472,24 @@ $text_data = [
 				    </tr>
 				</tbody>
 			    </table>
+
+			    <h4 class="mb-3">SNS</h4>
+			    <table class="table table-hover">
+				<tbody>
+				    <tr>
+					<th>Instagram</th>
+					<td><a href="https://www.instagram.com/mathscafe/?hl=ja">mathscafe</td>
+				    </tr>
+				    <tr>
+					<th>Twitter</th>
+					<td><a href="https://twitter.com/3deco">3deco</td>
+				    </tr>
+				    <tr>
+					<th>Youtube</th>
+					<td><a href="https://www.youtube.com/channel/UC2tiftbSLltdK6f347QCpFw">数学カフェ-Kagoshima-</a></td>
+				    </tr>
+				</tbody>
+			    </table>
 			    <!-- /店舗情報の表 -->
 						</section>
 					</div>
