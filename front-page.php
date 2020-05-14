@@ -339,10 +339,6 @@ $text_data = [
 					    <td><div class="text-right">457円</div></td>
 					</tr>
 					<tr>
-					    <th>黒糖タピオカバナナジュース</th>
-					    <td><div class="text-right">569円</div></td>
-					</tr>
-					<tr>
 					    <th>オレンジジュース</th>
 					    <td><div class="text-right">401円</div></td>
 					</tr>
