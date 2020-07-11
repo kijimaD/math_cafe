@@ -119,8 +119,8 @@ $text_data = [
 		    <div class="col-md-9 mb-3">
 			<h3 class="mb-3"><?php switch_lang($text_data, 'about_h'); ?></h3>
 			<p><?php switch_lang($text_data, 'about_p'); ?></p>
-			<a href="#menu" class="btn btn-outline-secondary"><?php switch_lang($text_data, 'about_menu'); ?></a>
-			<a href="#shop" class="btn btn-outline-secondary"><?php switch_lang($text_data, 'about_shop'); ?></a>
+			<a href="#menu" class="btn btn-outline-primary"><?php switch_lang($text_data, 'about_menu'); ?></a>
+			<a href="#shop" class="btn btn-outline-primary"><?php switch_lang($text_data, 'about_shop'); ?></a>
 		    </div>
 		    <div class="col-md-3">
 			<img src="<?php bloginfo('template_url'); ?>/images/about01.jpg" alt="coffee" class="img-fluid rounded float-right" style="" />
