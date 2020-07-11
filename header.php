@@ -8,7 +8,7 @@ $text_data = [
 	'info' => ['店舗情報', 'Info'],
 	'contact' => ['お問い合わせ', 'Contact Us'],
 	'access' => ['アクセス','Access'],
-	'privacy_policy' => ['プライバシーポリシー','Privacy Policy'],
+	'online_store' => ['オンラインストア','Online Store'],
 	'sitemap' => ['サイトマップ','Sitemap'],
 ];
 
@@ -105,6 +105,9 @@ $text_data = [
 						<li class="nav-item">
 							<a class="nav-link" href="<?php echo home_url('/'); ?>programming<?php suffix_en(); ?>"><?php switch_lang($text_data, 'programming'); ?></a>
 						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://sugakucafe.theshop.jp/about"><?php switch_lang($text_data, 'online_store'); ?></a>
+						</li>
 						<!-- ドロップダウン -->
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -113,7 +116,6 @@ $text_data = [
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<!-- <a class="dropdown-item" href="<?php echo home_url('/'); ?>#shop">情報</a> -->
 								<a class="dropdown-item" href="<?php echo home_url('/'); ?>#access"><?php switch_lang($text_data, 'access'); ?></a>
-								<a class="dropdown-item" href="<?php echo home_url('/'); ?>privacy-policy<?php suffix_en(); ?>"><?php switch_lang($text_data, 'privacy_policy'); ?></a>
 								<a class="dropdown-item" href="<?php echo home_url('/'); ?>sitemap<?php suffix_en(); ?>"><?php switch_lang($text_data, 'sitemap'); ?></a>
 							</div>
 						</li>

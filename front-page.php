@@ -119,8 +119,8 @@ $text_data = [
 		    <div class="col-md-9 mb-3">
 			<h3 class="mb-3"><?php switch_lang($text_data, 'about_h'); ?></h3>
 			<p><?php switch_lang($text_data, 'about_p'); ?></p>
-			<a href="#menu" class="btn btn-outline-secondary"><?php switch_lang($text_data, 'about_menu'); ?></a>
-			<a href="#shop" class="btn btn-outline-secondary"><?php switch_lang($text_data, 'about_shop'); ?></a>
+			<a href="#menu" class="btn btn-outline-primary"><?php switch_lang($text_data, 'about_menu'); ?></a>
+			<a href="#shop" class="btn btn-outline-primary"><?php switch_lang($text_data, 'about_shop'); ?></a>
 		    </div>
 		    <div class="col-md-3">
 			<img src="<?php bloginfo('template_url'); ?>/images/about01.jpg" alt="coffee" class="img-fluid rounded float-right" style="" />
@@ -339,10 +339,6 @@ $text_data = [
 					    <td><div class="text-right">457円</div></td>
 					</tr>
 					<tr>
-					    <th>黒糖タピオカバナナジュース</th>
-					    <td><div class="text-right">569円</div></td>
-					</tr>
-					<tr>
 					    <th>オレンジジュース</th>
 					    <td><div class="text-right">401円</div></td>
 					</tr>
@@ -470,8 +466,25 @@ $text_data = [
 					<th><?php switch_lang($text_data, 'info_table_parking_head'); ?></th>
 					<td><?php switch_lang($text_data, 'info_table_parking_body'); ?></td>
 				    </tr>
+				    <tr class="bg-light">
+					<th>SNS</th>
+					<td></td>
+				    </tr>
+				    <tr>
+					<th>Instagram</th>
+					<td><a href="https://www.instagram.com/mathscafe/?hl=ja">mathscafe</td>
+				    </tr>
+				    <tr>
+					<th>Twitter</th>
+					<td><a href="https://twitter.com/3deco">3deco</td>
+				    </tr>
+				    <tr>
+					<th>Youtube</th>
+					<td><a href="https://www.youtube.com/channel/UC2tiftbSLltdK6f347QCpFw">数学カフェ-Kagoshima-</a></td>
+				    </tr>
 				</tbody>
 			    </table>
+
 			    <!-- /店舗情報の表 -->
 						</section>
 					</div>
