@@ -32,7 +32,7 @@ register_nav_menus(
 );
 
 // 開発用、キャッシュを常に新しくして読み込ませる
-wp_enqueue_style('twentysixteen-style', get_stylesheet_uri(), null, microtime());
+/* wp_enqueue_style('twentysixteen-style', get_stylesheet_uri(), null, microtime()); */
 
 // アイキャッチ画像を利用できるようにする
 add_theme_support('post-thumbnails');
