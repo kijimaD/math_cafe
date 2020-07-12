@@ -241,7 +241,7 @@ $text_data = [
 						    <hr>
 						    <h5 class="card-title"><a href="<?php the_permalink(); ?>"></a>
 						    </h5>
-						    <div class="card-text">
+						    <div class="card-text" style="height:3em;">
 							<?php the_pickup_excerpt(); ?>
 						    </div>
 						</div>
